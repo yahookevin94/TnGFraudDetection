@@ -23,7 +23,7 @@ pd.set_option('display.max_rows', 400)
 pd.set_option('display.min_rows', 10)
 pd.set_option('display.expand_frame_repr', True)
 
-data = Path.cwd() / 'data'
+data = Path.cwd() / 'TnGTest' / 'data'
 cc3_file = data / 'sample_data.csv'
 
 df = pd.read_csv(cc3_file)
